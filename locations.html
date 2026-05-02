@@ -27,26 +27,39 @@
             <a class="action-btn" href="login.html">LOG IN</a>
         </div>
     </nav>
-    <div class="topbanner">
-        <img class="main-background" src="locationsPhotos/main-background1.jpg">
-        <div class="top-banner">
-            <h1 class="banner-text">EXPLORE EGYPT</h1>
-            <p class="banner-subtext">Journey through the cradle of civilization. From the sun-drenched shores of the Red Sea to the eternal silence of the Valley of the Kings.</p>
-        </div>
+    <div class="tab-bar">
+        <ul class="tab-content">
+            <li data-target="pyramids" class="active"><img src="locationsPhotos/pyramidsicon.png"></li>
+            <li data-target="sphinx"><img src="locationsPhotos/sphinxicon.png"></li>
+            <li data-target="redsea"><i class="bi bi-water"></i></li>
+            <li data-target="luxortemples"><i class="bi bi-bank"></i></li>
+            <li data-target="khanelkhalili"><img src="locationsPhotos/khanicon.png"></li>
+        </ul>
     </div>
-    <div>
-        <div class="destinations-section">
+    <div class="non-changing-content">
+
+        <div class="topbanner">
+            <img class="main-background" src="locationsPhotos/main-background1.jpg">
+            <div class="top-banner">
+                <h1 class="banner-text">EXPLORE EGYPT</h1>
+                <p class="banner-subtext">Journey through the cradle of civilization. From the sun-drenched shores of the Red Sea to the eternal silence of the Valley of the Kings.</p>
+            </div>
+        </div>
+    </div>    
+    <div class="non-changing-content">
+        <div class="destinations-section" >
             <div class="header">
-                <div>
+                <div class="non-changing-content">
                     <h1>ICONIC DESTINATIONS</h1>
                     <div class="bar"></div>
                 </div>
-
-                <div class="destinations-buttons">
-                    <button id="scrollLeftBtn">&lt;</button>
-                    <button id="scrollRightBtn">&gt;</button>
+                <div class="non-changing-content">    
+                    <div class="destinations-buttons">
+                        <button id="scrollLeftBtn">&lt;</button>
+                        <button id="scrollRightBtn">&gt;</button>
+                    </div>
                 </div>
-            </div>
+                </div>
             <div class="cards-wrapper" id="carousel">
                 <div class="card" data-target="pyramids">
                     <img src="locationsPhotos/pyramids.jpg">
@@ -87,17 +100,7 @@
                 </div>
             </div>
         </div>
-    
-    
-    
-    
-    
     </div>
-
-
-
-
-
     <footer>
         <p class="footer-logo">KEMEXRA</p>
         <p class="footer-tagline">Experience Egypt in Ultimate Comfort</p>
