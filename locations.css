@@ -37,6 +37,9 @@ html.light-mode .tab-bar {
 html.light-mode .tab-bar img {
     filter: invert(1) hue-rotate(180deg);
 }
+html.light-mode .detail-content h2{
+    color: gold;
+}
 
 
 /* الناف بار*/
